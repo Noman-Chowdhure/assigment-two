@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#main
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+ /* start header-section */
+
+header
+{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(243, 243, 243, 0.575);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+nav label img
+{
+    width: 100%;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(121, 121, 121);
+}
+
+#header-body
+{
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-row-gap: 30px;
+    justify-content: center;
+    
+}
+
+.header-txt
+{
+    text-align: center;
+}
+
+.header-txt h1
+{
+    color: rgb(129, 129, 129);
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+
+.header-txt h2
+{
+    margin-bottom: 10px;
+}
+
+
+
+
+.header-txt a
+{
+    display: inline-block;
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: gold;
+    border-radius: 10px;
+
+}
+
+
+.header-back-img img
+{
+    width: 100%;
+}
+
+
+/* end header-section */
+
+
+
+
+
+/* start why-section  */
+
+.why-section
+{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+
+
+}
+
+.why-img
+{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+
+.why-img img
+{
+    width: 100%;
+}
+
+
+.why-txt h1
+{
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 100;
+    
+
+}
+
+.why-txt h1 .sp1
+{
+    font-size:75px;
+    color: rgba(101, 219, 85, 0.89);
+}
+
+.why-txt a
+{
+    display: inline-block;
+    margin: 2rem 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: gold;
+    border-radius: 10px;
+}
+/* end why-section  */
+
+
+
+
+/* start teast-section  */
+
+.teast-section
+{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-column-gap: 40px;
+}
+
+
+.teast-txt
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-row-gap: 10px;
+}
+
+.teast-title h1
+{
+    text-transform: capitalize;
+    margin: 2rem 0;
+    
+    border-left: 2px solid gold;
+    padding-left: 5px;
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+
+}
+
+.food-item
+{
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    background-color: rgba(246, 246, 247, 0.596);
+    border-radius: 10px;
+    padding: 0 3rem;
+}
+
+.food-img img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.food-txt h1
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin: .6rem 0;
+}
+
+.food-txt i
+{
+    font-size: 10px;
+    color: gold;
+
+}
+
+.teast-img
+{
+    position: relative;
+}
+
+.teast-img a
+{
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    padding: 20px 30px;
+    background-color: gold;
+    text-decoration: none;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.teast-img img 
+{
+    width: 100%;
+}
+
+/* end teast-section  */
+
+
+
+/*start facts-section  */
+.facts-section
+{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+
+}
+
+.facts-title
+{
+    display: inline-block;
+    margin: 3rem 0;
+}
+
+.facts-title h1
+{
+    font-size: 45px;
+    border-left: 2px solid gold;
+    padding-left: 5px;
+
+}
+
+.facts-title h1
+{
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+}
+
+.facts-item
+{
+    margin: 3rem 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4 ,200px);
+    justify-content: center;
+    grid-column-gap: 30px;
+    
+}
+
+#facts
+{
+    border: 2px solid gold;
+    padding: 3rem 0;
+    transition: .5s;
+}
+
+#facts:hover
+{
+    border-radius: 50%;
+    transform: rotate(360deg);
+
+}
+
+/*end facts-section  */
+
+
+
+
+/* start sponspors-section  */
+
+.sponspors-section{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+}
+
+.sponspors-title
+{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.sponspors-title h1
+{
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+    border-bottom:2px solid #777 ;
+}
+
+
+.sponspors-brand
+{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    justify-content: center;
+    grid-column-gap: 50px;
+}
+
+.sponspors-brand img
+{
+    width: 100%;
+
+}
+
+/* end sponspors-section  */
+
+
+/* start  message-section  */
+.message-section
+{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background:url(../img/chasf/pexels-alina-blumberg-5701845.jpg)rgba(252, 250, 250, 0.781) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+}
+
+.message-title
+{
+   
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+
+.message-title h1
+{
+    color: whitesmoke;
+    font-weight: 100;
+    word-spacing: 5px;
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    font-size: 45px;
+
+
+}
+.message-title p
+{
+    color: rgb(161, 139, 37);
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.message
+{
+    display: grid;
+    grid-template: repeat( 2 , 50px) / repeat(1 , 700px);
+    grid-row-gap: 20px ;
+    justify-content: center;
+}
+
+.message input
+{
+    padding: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.37);
+    color: white;
+}
+
+
+.message  textarea
+{
+    padding: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.37);
+    color: white;
+}
+
+.message button
+{
+    padding: 10px;
+    color: brown;
+    font-weight: 600;
+}
+
+/* end message-section  */
+
+
+/* start footer-section  */
+
+footer
+{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(255, 236, 64);
+
+
+}
+
+footer h1
+{
+
+    font-size: 22px;
+}
+
+
+
+
+
+@media screen and (max-width:688px) {
+
+    #main
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+ /* start  end header-section     */
+
+    header
+{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(243, 243, 243, 0.575);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+nav ul li
+{
+    display: block;
+    padding: .3rem 2rem;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 3vw;
+    color: rgb(121, 121, 121);
+}
+
+
+
+#header-body
+{
+    display: grid;
+    grid-template-rows: 5rem 1fr;
+    /* grid-row-gap: 0px; */
+    justify-content: center;
+    
+}
+
+.header-txt
+{
+    text-align: center;
+}
+
+.header-txt h1
+{
+    color: rgb(129, 129, 129);
+    font-size: 6vw;
+    text-transform: capitalize;
+}
+
+
+.header-txt h2
+{
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+
+
+
+.header-txt a
+{
+    display: inline-block;
+    margin: .2rem 0;
+    text-decoration: none;
+    padding: .2rem .7rem;
+    background-color: gold;
+    border-radius: 10px;
+    font-size: 2vw;
+
+}
+
+
+.header-back-img img
+{
+    width: 100%;
+}
+
+ /* start  end header-section     */
+
+
+
+
+
+ /* start  end header-section     */
+.why-section
+{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+
+
+}
+
+
+
+.why-img
+{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+
+.why-img img 
+{
+    width: 100%;
+
+}
+
+.why-txt
+{
+    text-align: center;
+}
+.why-txt h1
+{
+    font-size: 5vw;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin: 1rem 0;
+
+}
+
+.why-txt h1 .sp1
+{
+    font-size:14vw;
+    color: rgba(101, 219, 85, 0.89);
+}
+
+.why-txt p
+{
+    font-size: 3vw;
+}
+
+.why-txt a
+{
+    display: inline-block;
+    margin: 2rem 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+ /* start  end header-section     */
+
+
+
+
+
+ /* start  teast-section     */
+.teast-section
+{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-column-gap: 20px;
+    padding: 30px 0;
+    
+}
+
+
+
+.teast-txt
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-row-gap: 10px;
+}
+
+.teast-title h1
+{
+    text-transform: capitalize;
+    margin: 2rem 0;
+    border-left: 2px solid gold;
+    padding-left: 5px;
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+
+}
+
+.food-item
+{
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    background-color: rgba(246, 246, 247, 0.596);
+    border-radius: 10px;
+    padding: 0 3rem;
+}
+
+.food-img img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.food-txt h1
+{
+    font-size: 4vw;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin: .6rem 0;
+}
+
+.food-txt i
+{
+    font-size: .9vw;
+    color: gold;
+
+}
+
+.teast-img
+{
+    position: relative;
+}
+
+.teast-img img 
+{
+    width: 100%;
+}
+
+
+.teast-img a
+{
+    position: absolute;
+    bottom: -25px;
+    left: -20px;
+    padding: 2vw 4vw;
+    background-color: gold;
+    text-decoration: none;
+    border-radius: 10px;
+    color: blueviolet;
+}
+ /*end teast-section     */
+
+
+
+ /* start  facts-section     */
+.facts-section
+{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+
+}
+
+.facts-title
+{
+    display: inline-block;
+    margin: 3rem 0;
+}
+
+.facts-title h1
+{
+    font-size: 6vw;
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+
+}
+
+.facts-item
+{
+    margin: 3rem 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    justify-content: center;
+    grid-row-gap: 20px;
+    
+}
+
+#facts
+{
+    border: 2px solid gold;
+    padding: 3rem 0;
+    transition: .5s;
+}
+
+#facts:hover
+{
+    border-radius: 50px;
+    transform: rotate(360deg);
+
+}
+ /* end facts-section     */
+
+
+ 
+ /* start  sponspors-section     */
+.sponspors-section{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+}
+
+.sponspors-title
+{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.sponspors-title h1
+{
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+    border-bottom:2px solid #777 ;
+}
+
+.sponspors-brand
+{
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+.sponspors-brand img
+{
+    width: 100%;
+
+}
+ /* end sponspors-section     */
+
+
+
+
+
+ /* start  messager-section     */
+.message-section
+{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background:url(../img/chasf/pexels-alina-blumberg-5701845.jpg)rgba(252, 250, 250, 0.781) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+}
+
+
+.message-title
+{
+   
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+
+.message-title h1
+{
+    color: whitesmoke;
+    font-weight: 100;
+    word-spacing: 5px;
+    font-family: 'Moon Dance', cursive;
+    text-transform: capitalize;
+    font-size: 5vw;
+
+
+}
+.message-title p
+{
+    color: rgb(161, 139, 37);
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.message
+{
+    display: grid;
+    grid-template: repeat( 2 , 1fr) / repeat(1 , 1fr);
+    grid-row-gap: 20px ;
+    justify-content: center;
+}
+
+.message input
+{
+    padding: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.37);
+    color: white;
+}
+
+
+.message  textarea
+{
+    padding: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.37);
+    color: white;
+}
+
+.message button
+{
+    padding: 10px;
+    color: brown;
+    font-weight: 600;
+}
+
+ /*end header-section */
+
+
+
+
+ /* start footer-section */
+footer
+{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(255, 236, 64);
+
+
+}
+
+footer h1
+{
+
+    font-size: 2vw;
+}
+ /*end footer-section     */
+    
+}
+
